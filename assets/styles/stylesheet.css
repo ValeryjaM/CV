@@ -1,0 +1,48 @@
+body{
+    font-size: 19px;
+    margin: 20px;
+    padding: 25px;
+    background-color: gainsboro;
+    line-height: 1.5;
+}
+.head{
+    margin: 20px 20px 10px;
+    padding: 20px 20px 30px 150px;
+    border-bottom: 3px solid brown;
+    display: flex;
+    flex-direction: row;
+}
+ 
+.foto{
+    min-width: 200px;
+    min-height: 150px;
+   
+}
+ .textnear{
+    margin: 0px 15px 10px 0px;
+    padding: 0px 20px 20px 0px;
+    align-items:center;
+ }
+.education, .personal{
+    margin: 20px 20px 10px;
+    padding: 20px 20px 30px 150px;
+    border-bottom: 3px solid brown;
+    
+}
+
+.work{
+    margin: 20px 20px 10px;
+    padding: 20px 20px 30px 150px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.work1{
+    padding-bottom: 20px;
+}
+
+
+h1, h2{
+    margin-top: 0px;
+    color: blue;
+}
+
